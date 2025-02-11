@@ -6,15 +6,18 @@ import Properties from "./pages/Properties";
 
 function App() {
   return (
-    <Router>
-      <DashboardLayout>
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/leads" element={<Leads />} />
-          <Route path="/properties" element={<Properties />} />
-        </Routes>
-      </DashboardLayout>
-    </Router>
+    // <Router>
+    //   <DashboardLayout>
+    //     <Routes>
+    //       <Route path="/" element={<Dashboard />} />
+    //       <Route path="/leads" element={<Leads />} />
+    //       <Route path="/properties" element={<Properties />} />
+    //     </Routes>
+    //   </DashboardLayout>
+    // </Router>
+    <>
+    <h1 className="text-red">Vishakkha </h1>
+    </>
   );
 }
 
